@@ -1,0 +1,82 @@
+section#contact .container{
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    margin-bottom: 8rem;
+}
+
+section#contact aside{
+    background: linear-gradient(to bottom, var(--color-navbar), rgb(230, 126, 178), var(--color-navbar));
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: var(--color-white);
+    width: max-content;
+    border-radius: 1rem;
+}
+
+section#contact aside h4{
+    color: var(--color-black);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    
+}
+
+section#contact aside article{
+    display: flex;
+    gap:2rem;
+    margin-top: 2rem;
+
+
+}
+
+section#contact aside article p{
+    font-size: 500;
+    color: black;
+    font-weight: 800;
+}
+
+section#contact aside article h5{
+    font-weight: bolder;
+    color:rgba(208, 241, 20, 0.938);
+    font-size:large;
+    margin-bottom: 0.8rem;
+    
+}
+
+section#contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    
+    
+    
+}
+
+section#contact form input, textarea{
+    padding: 1.5rem;
+    background:  linear-gradient(to right, var(--color-navbar), var(--color-white));
+    color: black;
+    font-weight: bold;
+    border-radius: 0.7rem;
+}
+
+section#contact form textarea{
+    height: 5rem;
+    resize: none;
+    
+}
+
+section#contact form input::placeholder, textarea::placeholder{
+    color: black;
+    font-weight: 500;
+}
+
+section#contact form button{
+    margin-top: 2rem;
+    width: fit-content;
+    margin-left: 8rem;
+}
+
