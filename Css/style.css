@@ -313,6 +313,23 @@ section#products article img{
     background-color: #fff;
 }
 
+section#products article .image {
+    display: flex;
+    
+}
+
+section#products article .image #img1
+{
+    margin-right: 100px;
+    border-radius: 10px;
+}
+
+section#products article .image #img2
+{
+    margin-left: 100px;
+    border-radius: 10px;
+}
+
 section#products article h2{
     letter-spacing: 0.1rem;
 }
@@ -325,6 +342,9 @@ section#products article h2 p{
 
 section#products article .info p{
     margin: 2rem 0;
+    color: #45c3e9;
+    font-weight: 500;
+    letter-spacing: 0.8px;
     
 }
 
@@ -359,6 +379,7 @@ section#why-choose-us .container .head .right p{
     
     
 }
+
 
 
 section#why-choose-us .container .head .left .animate-character {
