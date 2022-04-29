@@ -344,7 +344,7 @@ section#why-choose-us .container .head .right{
     width: max-content;
     display: inline-block;
     margin-top: 2rem;
-    margin-left: 70%;
+    margin-left: 50%;
     gap:2rem;
     width: 20rem;
     
@@ -387,6 +387,10 @@ section#why-choose-us .container .head .left .animate-character {
   }
 }
 
+section#why-choose-us .container .head .left{
+    margin-left: 40%;
+}
+
 
 section#why-choose-us .container article{
     display: grid;
@@ -400,13 +404,15 @@ section#why-choose-us .container article{
 section#why-choose-us .container article .info{
     margin-bottom: 1rem;
     color: var(--color-black);
-    font-size: large;
+    font-size: 22px;
+    font-weight: bold;
     line-height:2rem;
 }
 
 section#why-choose-us .container article .info span{
     color: var(--color-primary-variant);
     font-size: xx-large;
+
     display: block;
     margin-bottom: 1rem;
     font-weight: bold;
